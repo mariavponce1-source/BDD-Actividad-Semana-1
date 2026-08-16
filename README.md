@@ -11,10 +11,10 @@ Este repositorio contiene la solución para el diseño del modelo entidad-relaci
 * **Identificador de Pasajero (`num_documento` / `VARCHAR(20)`):**  
   Dado el alcance internacional de la aerolínea (5 continentes), se seleccionó `VARCHAR` como identificador principal para admitir pasaportes alfanuméricos y documentos de identidad con prefijos o dígitos verificadores de diversos países.
 
-* **Estructura de Nombres (`NombreCompleto` / `VARCHAR(100)`):**  
+* **Estructura de Nombres (`nombre_completo` / `VARCHAR(100)`):**  
   Se unificaron nombres y apellidos en un solo campo para alinearse con la pauta de la actividad y soportar la diversidad de estructuras de nombres internacionales.
 
-* **Código de Vuelo (`NumeroVuelo` / `VARCHAR(10)`):**  
+* **Código de Vuelo (`numero_vuelo` / `VARCHAR(10)`):**  
   Se definió en formato alfanumérico para respetar los estándares de la industria aeronáutica (IATA/OACI), combinando código de aerolínea y número de ruta (ej. *LA801*).
 
 ## Contenido del Repositorio
