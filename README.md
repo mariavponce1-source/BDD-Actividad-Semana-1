@@ -2,9 +2,13 @@
 
 Este repositorio contiene la solución para el diseño del modelo entidad-relación de la aerolínea **BT&Airways**, desarrollado en **Oracle SQL Developer Data Modeler**.
 
+## Integrantes
+* **Javier Ignacio Rojas Pulgar**
+* **María Victoria Ponce Blanco**
+
 ## Justificación Técnica de Diseño y Tipos de Datos
 
-* **Identificador de Pasajero (`num_documento` / `VARCHAR(20)`):**  
+* **Identificador de Pasajero (`num_pasaporte` / `VARCHAR(20)`):**  
   Dado el alcance internacional de la aerolínea (5 continentes), se seleccionó `VARCHAR` como identificador principal para admitir pasaportes alfanuméricos y documentos de identidad con prefijos o dígitos verificadores de diversos países.
 
 * **Estructura de Nombres (`NombreCompleto` / `VARCHAR(100)`):**  
